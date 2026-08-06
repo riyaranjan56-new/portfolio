@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="keywords" content="Riya, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer">
+    <meta name="author" content="Riya">
+    <title>My Portfolio | Riya</title>
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="My Portfolio | Riya">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="imagess/images.jpg">
+    <meta property="og:url" content="[Your Portfolio URL]">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Riya">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="imagess/images.jpg">
+    <!--Favicon-->
+    <link rel="icon" type="imagess/jpg" href="imagess.jpg/images.jpg" alt="Favicon">
+ 
+    <title>My Portfolio | Riya</title>
+</head>
+<body>
+ 
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+ 
+    <!-- HERO SECTION -->
+    <header>
+        <h1>Hi, I'm Riya 👋</h1>
+        <p>I'm a passionate web developer from Patna.</p>
+        <a href="#contact">Hire Me</a>
+    </header>
+ 
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+        <figure class="profile-figure">
+                    <img src="imagess.jpg/riya.jpg" alt="Riya profile photo" width="300">
+                    <figcaption>Riya — Web Developer</figcaption>
+                </figure>
+        <p>I love building things on the web. Currently learning HTML, CSS,
+           JavaScript, and React.</p>
+    </section>
+ 
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>C Programming</li>
+        </ul>
+
+        <!-- Skills Table -->
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Proficiency Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>C Programming</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+ 
+   <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>Description of project 1</p>
+            <a href="#">View Project</a>
+        </div>
+        <!--Embed YouTube Video (iframe)-->
+            <!--Embed YouTube Video (iframe)-->
+            <iframe width="300" height="169" src="https://www.youtube.com/embed/tqjJrXd27m4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+ 
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind? Let's talk!</p>
+
+        <form action="#" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <!-- NEW FIELDS ADDED -->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Enter a password" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter your phone number" required>
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country"
+                   placeholder="Enter your country" required>
+
+            <label for="experience">Experience Level</label>
+            <select id="experience" name="experience">
+                <option value="">-- Select level --</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <label for="skills">Skills</label>
+            <textarea id="skills" name="skills" rows="3"
+                      placeholder="List your skills..." required></textarea>
+            <!-- END NEW FIELDS -->
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">-- Select a topic --</option>
+                <option value="hire">I want to hire you</option>
+                <option value="collab">I want to collaborate</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Tell me about your project..." required></textarea>
+
+            
+            <button type="submit" aria-label="Submit button">Send Message 🚀</button>
+            <button type="reset">Clear Form</button>
+        </form>
+    </section>
+    
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Riya. All rights reserved.</p>
+    </footer>
+ 
+</body>
+</html>
