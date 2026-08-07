@@ -1,0 +1,76 @@
+/* styles.css - Start styling your potfolio website here */
+/* === RESET & BASE === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS Custom Properties (variables) - DRY Principle */
+:root {
+    --primary: #1B4F72;
+    --accent: #F18F01;
+    --text: #2C3E50;
+    --light: #F4F6F8;
+    --white: #FFFFFF;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+body {
+    font-family: var(--font-main);
+    color: var(--text);
+    line-height: 1.6;
+    background-color: var(--white);
+}
+/* NAVIGATION */
+.site-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--primary);
+    transition: background 0.3s ease, box-shadow 0.3s ease; /Day 9/
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+   
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--white);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: var(--accent);
+ 
+}
+.nav-links a.active{
+    color: var(--accent);
+    font-weight: bold;
+    border-bottom: 2px solid var(--accent);
+}
+ 
+/* HERO SECTION */
+.hero-section {
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary), #2E86AB);
+    color: var(--white);
+    padding: 100px 5%;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+ 
+}
